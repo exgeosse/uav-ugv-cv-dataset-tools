@@ -216,3 +216,78 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Datasets and model outputs
+datasets/
+data/
+runs/
+results/
+weights/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Large archives
+*.zip
+*.rar
+*.7z
+
+# Images / labels from actual datasets
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.txt
+
+# Allow documentation screenshots if needed
+!screenshots/*.png
+!screenshots/*.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
