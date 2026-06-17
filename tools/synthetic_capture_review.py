@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-WarThunder Dataset Capture Assistant v1.1 - Fast Capture Mode
+Simulation Dataset Capture Assistant v1.1 - Fast Capture Mode
 
 Recommended:
 pip install pillow mss pynput
 
 Run:
-python warthunder_dataset_capture_assistant_v1_1_fast.py
+python synthetic_capture_review.py
 """
 
 from __future__ import annotations
@@ -42,8 +42,8 @@ except Exception:
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 DATASET_DIR = SCRIPT_DIR
-APP_TITLE = "WarThunder Dataset Capture Assistant v1.1 - Fast Capture Mode"
-CONFIG_FILE = DATASET_DIR / "wt_capture_config_v1_1.json"
+APP_TITLE = "Simulation Dataset Capture Assistant v1.1 - Fast Capture Mode"
+CONFIG_FILE = DATASET_DIR / "simulation_capture_config_v1_1.json"
 
 CLASSES = [
     "CIV_VEHICLE",
@@ -154,8 +154,8 @@ class App:
         self.root.title(APP_TITLE)
         self.root.geometry("1180x760")
 
-        self.output_dir = tk.StringVar(value=str(DATASET_DIR / "wt_dataset_capture"))
-        self.source = tk.StringVar(value="WT")
+        self.output_dir = tk.StringVar(value=str(DATASET_DIR / "simulation_dataset_capture"))
+        self.source = tk.StringVar(value="SIM")
         self.class_name = tk.StringVar(value="MIL_MBT")
         self.vehicle = tk.StringVar(value="Leopard2A6")
         self.environment = tk.StringVar(value="desert")
