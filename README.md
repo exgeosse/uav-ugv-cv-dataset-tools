@@ -30,12 +30,12 @@ docs/
 
 ## Tools
 
-### 1. YOLO Annotation Editor
+### 1. Annotation Editor
 
 File:
 
 ```text
-tools/yolo_annotation_editor.py
+tools/annotation_editor.py
 ```
 
 Purpose:
@@ -46,12 +46,12 @@ Purpose:
 * Image-by-image dataset curation
 * Detection of problematic image-label pairs
 
-### 2. YOLO Dataset Manager
+### 2. Dataset Manager
 
 File:
 
 ```text
-tools/yolo_dataset_manager.py
+tools/dataset_manager.py
 ```
 
 Purpose:
@@ -67,7 +67,7 @@ Purpose:
 File:
 
 ```text
-tools/synthetic_capture_review_tool.py
+tools/synthetic_capture_review.py
 ```
 
 Purpose:
@@ -82,7 +82,7 @@ Purpose:
 File:
 
 ```text
-tools/yolo_synthetic_augmentation_studio.py
+tools/synthetic_augmentation_studio.py
 ```
 
 Purpose:
@@ -91,20 +91,6 @@ Purpose:
 * Preview and quality control of augmented samples
 * Support for YOLO-format datasets
 * Assistance in dataset preparation before training
-
-### 5. Prediction Export Script
-
-File:
-
-```text
-tools/make_individual_predictions_for_appendix.py
-```
-
-Purpose:
-
-* Run inference on selected test images
-* Export prediction images with bounding boxes
-* Support qualitative evaluation and appendix figures
 
 ## Installation
 
