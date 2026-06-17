@@ -1,0 +1,13 @@
+path: ./examples/sample_dataset_structure
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: CIV_VEHICLE
+  1: MIL_ARM_VEHICLE
+  2: MIL_ARTILLERY
+  3: MIL_MBT
+  4: MIL_MISS_LAUNCHER
+  5: MIL_VEHICLE
