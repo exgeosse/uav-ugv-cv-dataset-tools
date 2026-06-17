@@ -124,13 +124,13 @@ A typical dataset preparation workflow may include the following steps:
 From the root folder of the repository, run:
 
 ```bash
-python tools/yolo_dataset_manager.py
+python tools/dataset_manager.py
 ```
 
 or:
 
 ```bash
-python tools/yolo_annotation_editor.py
+python tools/annotation_editor.py
 ```
 
 The exact filename depends on the final names of the scripts included in the `tools/` folder.
