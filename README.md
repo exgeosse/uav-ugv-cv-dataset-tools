@@ -105,13 +105,7 @@ pip install -r requirements.txt
 Run a GUI tool from the repository root:
 
 ```bash
-python tools/yolo_dataset_manager.py
-```
-
-Run the prediction export script:
-
-```bash
-python tools/make_individual_predictions_for_appendix.py
+python tools/dataset_manager.py
 ```
 
 Some tools may also allow the user to select a dataset folder through the graphical interface.
