@@ -115,7 +115,7 @@ class RegionSelector:
 
         self.canvas.create_text(
             40, 40, anchor="nw",
-            text="Drag με το mouse γύρω από το παράθυρο/περιοχή gameplay του War Thunder.\nΑφήνεις το mouse για αποθήκευση region. ESC για ακύρωση.",
+            text="Drag με το mouse γύρω από το παράθυρο/περιοχή του περιβάλλοντος προσομοίωσης.\nΑφήνεις το mouse για αποθήκευση region. ESC για ακύρωση.",
             fill="white", font=("Segoe UI", 18, "bold")
         )
 
